@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Prefeitura+pertodevc - Ver Chamado </title>
+</head>
+
+<body>
+    <main>
+        <div class="navigation">
+            <div class="navigation__top">
+                <img src="assets/img/logo-menu.png" alt="Logotipo da Prefeitura+ perto de você">
+                <h2 class="navigation__top-title">
+                    Prefeitura+ <br> 
+                    <span>pertodevc</span>
+                </h2>
+            </div>
+            <nav class="navigation__menu">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="novo-chamado.html">
+                            Novo Chamado
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="content__main">
+                <header class="content-main__header">
+                    <div class="content-main__header-info">
+                        <a href="index.html" aria-label="Voltar para a página inicial">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <span class="content-main__header-page">Voltar</span>
+                        </a>
+                    </div>
+                    <button class="content-main__header-menu" aria-label="Abrir menu" aria-expanded="false">
+                        <i class="fa-solid fa-bars hamburguer"></i>
+                    </button>
+                </header>
+                <div class="content__body">
+                    <section class="content__body-intern">
+                        <div>
+                            <span>Editando</span>
+                            <h1 class="content__body-title-page">Chamado 321</h1>
+                        </div>
+                        <div>
+                            <p class="calls__status">
+                                Status: <mark class="calls__status--waiting">Em andamento</mark>
+                            </p>
+                        </div>
+                    </section>
+                    <form class="call" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                placeholder="Nome Completo" 
+                                value="Chamado 321" 
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Endereço do Ocorrido</label>
+                            <input 
+                                type="text" 
+                                id="address" 
+                                name="address" 
+                                placeholder="Endereço do Ocorrido" 
+                                value="Rua lore ipsum, Bairro Loreim Upsim" 
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Categoria do Problema</label>
+                            <select id="category" name="category" required>
+                                <option value="" disabled>Categoria do problema</option>
+                                <option value="1" selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="report">Relato</label>
+                            <textarea 
+                                id="report" 
+                                name="report" 
+                                placeholder="Faça seu relato" 
+                                required>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam arcu libero, ultricies nec fermentum at, bibendum eget ligula. Integer vel nisi a nunc</textarea>
+                        </div>
+                        <button type="submit" class="btn call__btn-new">
+                            Editar
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
