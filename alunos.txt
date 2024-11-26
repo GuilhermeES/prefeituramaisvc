@@ -1,0 +1,17 @@
+Polo de Lages
+Guilherme Estevão
+Renan da Silva Cunha
+Cristian Rafael da Rosa
+Julia Lima Goulart
+
+Polo de Tubarão
+Beatriz Cristina Roecker
+
+Link do figma mobile:
+https://www.figma.com/proto/TArHsf7rJqWfR89V2e6vpi/Trabalho-UX%2FUI?node-id=149-12&node-type=canvas&t=igp7mkmygtri7wTM-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=149%3A12
+
+Link do figma desktop:
+https://www.figma.com/proto/TArHsf7rJqWfR89V2e6vpi/Trabalho-UX%2FUI?node-id=29-12&node-type=frame&t=CtvrjC3CP4iY6lXM-1&scaling=min-zoom&content-scaling=fixed&page-id=17%3A535&starting-point-node-id=29%3A12
+
+Link do site:
+https://prefeituramaisvc.netlify.app

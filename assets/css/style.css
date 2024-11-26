@@ -9,9 +9,14 @@
     box-sizing: border-box;
 }
 
+htm{
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     outline: none;
+    overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -402,6 +407,10 @@ textarea {
     margin: 0 auto;
 }
 
+.index__form--cadastro{
+    width: 420px;
+}
+
 .call__btn-new--index{
     max-width: 100%;
     margin-top: 0px;
@@ -417,6 +426,15 @@ textarea {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
+}
+
+.form-group__flex{
+    display: flex;
+    gap: 10px;
+}
+
+.form-group__flex .form-group{
+    flex: 1;
 }
 
 .index__form-title--mobile{
@@ -517,4 +535,22 @@ textarea {
     .index__form-title--mobile{
         display: block;
     }
+
+    .index__form--cadastro{
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .form-group__flex{
+        display: block;
+    }
+
+    .index__form--cadastro .index__link{
+        padding-bottom: 30px;
+    }
+
+   
 }
